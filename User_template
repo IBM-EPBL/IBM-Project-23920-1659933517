@@ -50,7 +50,9 @@ div {
         <option value="FIAT">Fiat</option>
         <option value="FORCE">Force</option>
         <option value="FORD">Ford</option>
+        <option value="HERO">Hero</option>
         <option value="HONDA">Honda</option>
+        <option value="Hero Honda">Hero Honda</option>
         <option value="HYUNDAI">Hyundai</option>
         <option value="ISUZU">Isuzu</option>
         <option value="JAGUAR">Jaguar</option>
@@ -61,6 +63,8 @@ div {
         <option value="MARUTI">Maruti Suzuki</option>
         <option value="MERCEDES">Mercedes-Benz</option>
         <option value="MINI">Mini</option>
+        <option value="SUMO">Sumo</option>
+        <option value="NaNo">Nano</option>
         <option value="MITSUBISHI">Mitsubishi</option>
         <option value="NISSAN">Nissan</option>
         <option value="PORSCHE">Porsche</option>
@@ -79,6 +83,9 @@ div {
         <option value="Mumbai">Mumbai</option>
         <option value="Chennai">Chennai</option>
         <option value="Pune">Pune</option>
+        <option value="Rajasthan">Rajasthan</option>
+        <option value="Salem">Salem</option>
+        <option value="Namakkal">Namakkal</option>
         <option value="Coimbatore">Coimbatore</option>
         <option value="Hyderabad">Hyderabad</option>
         <option value="Jaipur">Jaipur</option>
@@ -99,12 +106,14 @@ div {
         <option value="Diesel">Diesel</option>
         <option value="LPG">LPG</option>
         <option value="Petrol">Petrol</option>
+        <option value="special power ignition">Special Power Ignition</option>
     </select>
     
     <label style="font-family:verdana" for="transmission">TRANSMISSION</label>
     <select name="Transmission" id="Transmission" required="required">
         <option value="Automatic">Automatic</option>
         <option value="Manual">Manual</option>
+        <option value="Dual">Dual</option>
     </select>
   
     <label style="font-family:verdana" for="mileage">MILEAGE</label>
@@ -126,6 +135,8 @@ div {
       <option value=8>8</option>
       <option value=9>9</option>
       <option value=10>10</option>
+      <option value=10-20>10-20</option>
+      <option value=20+>20</option>
     </select>
         
     <label style="font-family:verdana" for="owner">OWNER TYPE</label>
@@ -133,7 +144,8 @@ div {
       <option value=1>First</option>
       <option value=2>Second</option>
       <option value=3>Third</option>
-      <option value=4>Fourth or Above</option>
+      <option value=4>Fourth</option>
+      <option value=Above>Above</option>
     </select>
   
     <input style="font-family:verdana" type="submit" value="Submit">
